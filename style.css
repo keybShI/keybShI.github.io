@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    background-color: #3399ff;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.site-title h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    background-color: #3399ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #3399ff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
